@@ -1,0 +1,15 @@
+# Handle line endings automatically for files detected as text
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+*.js text
+*.css text
+*.html text
+*.md text
+
+# Declare files that will always have CRLF line endings on checkout
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Declare files that will always have LF line endings on checkout
+*.sh text eol=lf
